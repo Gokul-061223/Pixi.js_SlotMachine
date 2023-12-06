@@ -87,7 +87,7 @@ function onAssetsLoaded() {
     let mask = new PIXI.Graphics();
     // Define the rectangular area to show within the mask (the reel window)
     mask.beginFill(0xffffff);
-    mask.drawRect(0, 0, 400, 480); // Define the rectangle dimensions
+    mask.drawRect(0, 0, 400, 460); // Define the rectangle dimensions
     mask.endFill(); // End filling
 
     // Set the mask for the reel container
